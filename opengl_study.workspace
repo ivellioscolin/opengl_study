@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="opengl_study" Database="">
+  <Environment>
+    <![CDATA[]]>
+  </Environment>
+  <Project Name="triangle101" Path="chapter01/triangle101/triangle101.project" Active="Yes"/>
+  <Project Name="draw_commands" Path="chapter03/draw_commands/draw_commands.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="draw_commands" ConfigName="Debug"/>
+      <Project Name="triangle101" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="no">
+      <Environment/>
+      <Project Name="draw_commands" ConfigName="Release"/>
+      <Project Name="triangle101" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

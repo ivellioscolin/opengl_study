@@ -3,18 +3,18 @@
   <Environment>
     <![CDATA[]]>
   </Environment>
-  <Project Name="triangle101" Path="chapter01/triangle101/triangle101.project" Active="Yes"/>
-  <Project Name="draw_commands" Path="chapter03/draw_commands/draw_commands.project" Active="No"/>
+  <Project Name="chapter01_triangle101" Path="chapter01/triangle101/triangle101.project" Active="Yes"/>
+  <Project Name="chapter03_draw_commands" Path="chapter03/draw_commands/draw_commands.project" Active="No"/>
   <BuildMatrix>
-    <WorkspaceConfiguration Name="Debug" Selected="yes">
+    <WorkspaceConfiguration Name="Debug" Selected="no">
       <Environment/>
-      <Project Name="draw_commands" ConfigName="Debug"/>
-      <Project Name="triangle101" ConfigName="Debug"/>
+      <Project Name="chapter01_triangle101" ConfigName="Debug"/>
+      <Project Name="chapter03_draw_commands" ConfigName="Debug"/>
     </WorkspaceConfiguration>
-    <WorkspaceConfiguration Name="Release" Selected="no">
+    <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
-      <Project Name="draw_commands" ConfigName="Release"/>
-      <Project Name="triangle101" ConfigName="Release"/>
+      <Project Name="chapter01_triangle101" ConfigName="Release"/>
+      <Project Name="chapter03_draw_commands" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

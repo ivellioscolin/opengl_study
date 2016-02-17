@@ -5,19 +5,28 @@
   </Environment>
   <Project Name="chapter01_triangle101" Path="chapter01/triangle101/triangle101.project" Active="No"/>
   <Project Name="chapter03_draw_commands" Path="chapter03/draw_commands/draw_commands.project" Active="No"/>
-  <Project Name="chapter03_cube_from_triangle_strip" Path="chapter03/cube_from_triangle_strip/cube_from_triangle_strip.project" Active="Yes"/>
+  <Project Name="chapter03_cube_from_triangle_strip" Path="chapter03/cube_from_triangle_strip/cube_from_triangle_strip.project" Active="No"/>
+  <Project Name="chapter03_instancing2" Path="chapter03/instancing2/instancing2.project" Active="Yes"/>
+  <Project Name="chapter03_instancing3" Path="chapter03/instancing3/instancing3.project" Active="No"/>
+  <Project Name="instancing1" Path="chapter03/instancing/instancing1.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="chapter01_triangle101" ConfigName="Debug"/>
       <Project Name="chapter03_draw_commands" ConfigName="Debug"/>
       <Project Name="chapter03_cube_from_triangle_strip" ConfigName="Debug"/>
+      <Project Name="chapter03_instancing2" ConfigName="Debug"/>
+      <Project Name="chapter03_instancing3" ConfigName="Debug"/>
+      <Project Name="chapter03_instancing" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="no">
       <Environment/>
       <Project Name="chapter01_triangle101" ConfigName="Release"/>
       <Project Name="chapter03_draw_commands" ConfigName="Release"/>
       <Project Name="chapter03_cube_from_triangle_strip" ConfigName="Release"/>
+      <Project Name="chapter03_instancing2" ConfigName="Release"/>
+      <Project Name="chapter03_instancing3" ConfigName="Release"/>
+      <Project Name="chapter03_instancing" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

@@ -9,7 +9,8 @@
   <Project Name="chapter03_instancing2" Path="chapter03/instancing2/instancing2.project" Active="No"/>
   <Project Name="chapter03_instancing3" Path="chapter03/instancing3/instancing3.project" Active="No"/>
   <Project Name="instancing1" Path="chapter03/instancing/instancing1.project" Active="No"/>
-  <Project Name="chapter04_stencil_test" Path="chapter04/stencil_test/stencil_test.project" Active="Yes"/>
+  <Project Name="chapter04_stencil_test" Path="chapter04/stencil_test/stencil_test.project" Active="No"/>
+  <Project Name="chapter04_depth_test" Path="chapter04/depth_test/depth_test.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -20,6 +21,7 @@
       <Project Name="chapter03_instancing3" ConfigName="Debug"/>
       <Project Name="chapter03_instancing" ConfigName="Debug"/>
       <Project Name="chapter04_stencil_test" ConfigName="Debug"/>
+      <Project Name="chapter04_depth_test" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -30,6 +32,7 @@
       <Project Name="chapter03_instancing3" ConfigName="Release"/>
       <Project Name="chapter03_instancing" ConfigName="Release"/>
       <Project Name="chapter04_stencil_test" ConfigName="Release"/>
+      <Project Name="chapter04_depth_test" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

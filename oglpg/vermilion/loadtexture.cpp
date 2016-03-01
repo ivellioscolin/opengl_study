@@ -7,7 +7,7 @@
 #define GLEW_STATIC
 #include <GL/glew.h>
 
-#include <cstdint>
+//#include <cstdint>
 
 extern "C" void vglLoadDDS(const char* filename, vglImageData* image);
 

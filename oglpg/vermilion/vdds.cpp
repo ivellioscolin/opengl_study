@@ -5,7 +5,6 @@
         Adapted from information obtained at http://msdn.microsoft.com/en-us/library/windows/desktop/bb943991%28v=vs.85%29.aspx
 
 */
-
 #ifdef _MSC_VER
 #define _CRT_SECURE_NO_WARNINGS
 #endif /* _MSC_VER */
@@ -13,7 +12,7 @@
 #define VERMILION_BUILD_LIB
 #include <vermilion.h>
 
-#include <cstdint>
+//#include <cstdint>
 #include <cstdio>
 #include <cstring>
 
@@ -573,6 +572,12 @@ extern "C"
 void vglLoadDDS(const char* filename, vglImageData* image)
 {
     FILE* f;
+    size_t current_pos = 0;
+    GLubyte * ptr = NULL;
+
+    int width = 0;
+    int height = 0;
+    int depth = 0;
 
     memset(image, 0, sizeof(*image));
 
@@ -603,7 +608,7 @@ void vglLoadDDS(const char* filename, vglImageData* image)
     if (image->target == GL_NONE)
         goto done_close_file;
 
-    size_t current_pos = ftell(f);
+    current_pos = ftell(f);
     size_t file_size;
     fseek(f, 0, SEEK_END);
     file_size = ftell(f);
@@ -615,11 +620,11 @@ void vglLoadDDS(const char* filename, vglImageData* image)
     fread(image->mip[0].data, file_size - current_pos, 1, f);
 
     int level;
-    GLubyte * ptr = reinterpret_cast<GLubyte*>(image->mip[0].data);
+    ptr = reinterpret_cast<GLubyte*>(image->mip[0].data);
 
-    int width = file_header.std_header.width;
-    int height = file_header.std_header.height;
-    int depth = file_header.std_header.depth;
+    width = file_header.std_header.width;
+    height = file_header.std_header.height;
+    depth = file_header.std_header.depth;
 
     image->sliceStride = 0;
 

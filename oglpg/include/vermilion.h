@@ -61,6 +61,7 @@ GLuint vglLoadTexture(const char* filename,
 }
 #endif /* __cplusplus */
 
+#ifdef _MSC_VER
 #if !defined VERMILION_BUILD_LIB
   #ifdef _M_X64
     #ifdef _DEBUG
@@ -76,5 +77,6 @@ GLuint vglLoadTexture(const char* filename,
     #endif /* _DEBUG */
   #endif /* _M_X64 */
 #endif /* VERMILION_BUILD_LIB */
+#endif /* _MSC_VER */
 
 #endif /* _VERMILION_H_ */

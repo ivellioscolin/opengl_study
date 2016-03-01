@@ -11,7 +11,8 @@
   <Project Name="instancing1" Path="chapter03/instancing/instancing1.project" Active="No"/>
   <Project Name="chapter04_stencil_test" Path="chapter04/stencil_test/stencil_test.project" Active="No"/>
   <Project Name="chapter04_depth_test" Path="chapter04/depth_test/depth_test.project" Active="No"/>
-  <Project Name="chapter04_polygon_offset" Path="chapter04/polygon_offset/polygon_offset.project" Active="Yes"/>
+  <Project Name="chapter04_polygon_offset" Path="chapter04/polygon_offset/polygon_offset.project" Active="No"/>
+  <Project Name="chapter06_simple_texture" Path="chapter06/simple_texture/simple_texture.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -24,6 +25,7 @@
       <Project Name="chapter04_stencil_test" ConfigName="Debug"/>
       <Project Name="chapter04_depth_test" ConfigName="Debug"/>
       <Project Name="chapter04_polygon_offset" ConfigName="Debug"/>
+      <Project Name="chapter06_simple_texture" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -36,6 +38,7 @@
       <Project Name="chapter04_stencil_test" ConfigName="Release"/>
       <Project Name="chapter04_depth_test" ConfigName="Release"/>
       <Project Name="chapter04_polygon_offset" ConfigName="Release"/>
+      <Project Name="chapter06_simple_texture" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

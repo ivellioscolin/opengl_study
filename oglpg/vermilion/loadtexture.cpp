@@ -34,7 +34,7 @@ GLuint vglLoadTexture(const char* filename,
 
     vglLoadImage(filename, image);
 
-    if (texture == 0)
+    //if (texture == 0)
     {
         glGenTextures(1, &texture);
     }

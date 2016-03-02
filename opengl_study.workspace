@@ -15,7 +15,8 @@
   <Project Name="chapter06_simple_texture" Path="chapter06/simple_texture/simple_texture.project" Active="No"/>
   <Project Name="chapter06_texture_wrap" Path="chapter06/texture_wrap/texture_wrap.project" Active="No"/>
   <Project Name="chapter06_multi_texture" Path="chapter06/multi_texture/multi_texture.project" Active="No"/>
-  <Project Name="chapter06_3D_texture" Path="chapter06/3D_texture/3D_texture.project" Active="Yes"/>
+  <Project Name="chapter06_3D_texture" Path="chapter06/3D_texture/3D_texture.project" Active="No"/>
+  <Project Name="chapter06_cubemap_texture" Path="chapter06/cubemap_texture/cubemap_texture.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="no">
       <Environment/>
@@ -32,6 +33,7 @@
       <Project Name="chapter06_texture_wrap" ConfigName="Debug"/>
       <Project Name="chapter06_multi_texture" ConfigName="Debug"/>
       <Project Name="chapter06_3D_texture" ConfigName="Debug"/>
+      <Project Name="chapter06_cubemap_texture" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -48,6 +50,7 @@
       <Project Name="chapter06_texture_wrap" ConfigName="Release"/>
       <Project Name="chapter06_multi_texture" ConfigName="Release"/>
       <Project Name="chapter06_3D_texture" ConfigName="Release"/>
+      <Project Name="chapter06_cubemap_texture" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

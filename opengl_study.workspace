@@ -18,7 +18,8 @@
   <Project Name="chapter06_3D_texture" Path="chapter06/3D_texture/3D_texture.project" Active="No"/>
   <Project Name="chapter06_cubemap_texture" Path="chapter06/cubemap_texture/cubemap_texture.project" Active="No"/>
   <Project Name="chapter06_mipmap_texture" Path="chapter06/mipmap_texture/mipmap_texture.project" Active="No"/>
-  <Project Name="chapter06_point_sprite1" Path="chapter06/point_sprite1/point_sprite1.project" Active="Yes"/>
+  <Project Name="chapter06_point_sprite1" Path="chapter06/point_sprite1/point_sprite1.project" Active="No"/>
+  <Project Name="chapter06_point_sprite2" Path="chapter06/point_sprite2/point_sprite2.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -38,6 +39,7 @@
       <Project Name="chapter06_cubemap_texture" ConfigName="Debug"/>
       <Project Name="chapter06_mipmap_texture" ConfigName="Debug"/>
       <Project Name="chapter06_point_sprite1" ConfigName="Debug"/>
+      <Project Name="chapter06_point_sprite2" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="no">
       <Environment/>
@@ -57,6 +59,7 @@
       <Project Name="chapter06_cubemap_texture" ConfigName="Release"/>
       <Project Name="chapter06_mipmap_texture" ConfigName="Release"/>
       <Project Name="chapter06_point_sprite1" ConfigName="Release"/>
+      <Project Name="chapter06_point_sprite2" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
